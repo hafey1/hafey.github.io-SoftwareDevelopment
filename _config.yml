@@ -93,10 +93,10 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Alembic" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Software blog built using the alembic jekyll boilerplate.
+description: "Software blog built using the alembic jekyll boilerplate."
 baseurl: "https://hafey1.github.io/hafey.github.io-SoftwareDevelopment/"
 repo: "https://github.com/daviddarnes/alembic"
-email: "niggebruggere@g.cofc.edu"
+email: ""
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
