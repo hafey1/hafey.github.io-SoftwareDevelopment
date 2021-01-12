@@ -42,12 +42,10 @@ twitter:
   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
 author: DavidDarnes # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
+  name: Robert Niggebrugge # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
+    - https://twitter.com/RobertNiggebru1
+    - https://github.com/hafey1
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -120,15 +118,15 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # 9. Site navigation
 navigation_header:
 - title: Home
-  url: /
+  url: /hafey.github.io-SoftwareDevelopment/
 - title: Elements
-  url: /elements/
+  url: /hafey.github.io-SoftwareDevelopment/elements/
 - title: Blog
-  url: /blog/
+  url: /hafey.github.io-SoftwareDevelopment/blog/
 - title: Categories
-  url: /categories/
+  url: /hafey.github.io-SoftwareDevelopment/categories/
 - title: Search
-  url: /search/
+  url: /hafey.github.io-SoftwareDevelopment/search/
 - title: Fork Alembic
   url: https://github.com/daviddarnes/alembic
 
