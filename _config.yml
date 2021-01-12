@@ -119,16 +119,8 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /hafey.github.io-SoftwareDevelopment/
-- title: Elements
-  url: /hafey.github.io-SoftwareDevelopment/elements/
 - title: Blog
   url: /hafey.github.io-SoftwareDevelopment/blog/
-- title: Categories
-  url: /hafey.github.io-SoftwareDevelopment/categories/
-- title: Search
-  url: /hafey.github.io-SoftwareDevelopment/search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
 - title: Created by David Darnes
