@@ -94,7 +94,7 @@ lang: en-GB # Set the site language
 title: "Robert Niggebrugge Software Blog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Software blog built using the alembic jekyll boilerplate."
-baseurl: ""
+baseurl: "/hafey.github.io-SoftwareDevelopment/"
 repo: "https://github.com/daviddarnes/alembic"
 email: ""
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
@@ -117,9 +117,9 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # 9. Site navigation
 navigation_header:
 - title: Home
-  url: /hafey.github.io-SoftwareDevelopment/
+  url: /
 - title: Blog
-  url: /hafey.github.io-SoftwareDevelopment/blog/
+  url: /blog/
 
 navigation_footer:
 - title: Created by David Darnes
