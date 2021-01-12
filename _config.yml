@@ -94,7 +94,7 @@ lang: en-GB # Set the site language
 title: "Robert Niggebrugge Software Blog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Software blog built using the alembic jekyll boilerplate."
-baseurl: "/hafey.github.io-SoftwareDevelopment/"
+baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
 email: ""
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
