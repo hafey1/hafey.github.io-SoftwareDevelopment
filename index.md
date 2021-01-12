@@ -7,7 +7,7 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "See my blog posts for my progress."
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
+The landing page for my blog. Under construction currently. Please click the blog button above to view my posts.
 
 {% include button.html text="My Github" icon="github" link="https://github.com/hafey1/" color="#0366d6" %}
 
