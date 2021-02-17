@@ -1,0 +1,15 @@
+---
+title: Stupid or Solid?
+categories:
+- General
+feature_image: "https://picsum.photos/2560/600?image=872"
+---
+
+Today's blog is a reflection on a selected reading about the principles of STUPID and SOLID code. The reading came from a blog post from William Durand called [From STUPID to SOLID Code](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/). In his post he first covers the concepts behind the acronym STUPID and why they are detrimental coding practices. Luckily in my
+coding experiences I have learned most of these practices and why they are detimental. Principals such as Indescriptive Naming, Duplication, Premature Optimization, and Tight Coupling have been brought to my attention before
+and I have tried to avoid these patterns in my work. The one principal I was least familiar with from STUPID was the concept of Singleton. This is probably because it comes from a very different school of thought
+than what I have learned coming from an object oriented background. Singletons are where only one instantiation of a class is allowed in a given program. This concept is used to address problems related to global state of a program.
+The problem with singletons and global state in general is that they create widespread dependency in a program and make seperation of concerns/modularizations most likely impossible. Any coding practice that actively tries to reduce seperation, if not used in extreme moderation, will create large tangled messes that become hard to interact with.  
+
+However, Durand does offer better coding practices in his explanation of SOLID code. All of these could be broadly described as make your classes as minimal and closed as possible, implement higherarchies that make small extensions in their relationships, and accomadate as much abstraction as possible through interfaces. The best example is through his recommendation of using the Liskov Substitution Principle. I think this is really key because it highlights the nuance needed to achieve sustainable polymorphism. His example covers the inheritance relationship between a Rectangle class and a Square class. On first thought most people would agree that a square satisfies the "is a" litmus test because in mathematics a square is a type of rectangle. But when you take into consideration the LSP and the behaviors and attributes of the two respective classes, it is clear that the Square class does not extend the Rectangle class in anyway. It only modifies behavior and constrains its attributes. So a square cannot be completely replaceable with an instance of a rectangle. And when you attempt to use polymorphism in such a case this can be a
+breeding ground for extremely hard to track bugs. I quite like the thought behind LSP. It shows how important abstraction is for Object Oriented Design and also how unique and nuanced the thought for creating certain abstractions must be in order to design good code.
